@@ -168,3 +168,23 @@ git push --all origin // Irá mandar todas as branchs locais para o repósitorio
 
 git pull // Se atualizou diretamente no github e precisa atualizar o seu local
 ```
+
+### Commits Convencionais ou Conventional Commits
+
+Aqui aborda a boa prática de commits legivéis e de facil compreensão para se trabalhar em equipe.
+Em resumo a especificação Conventional Commits é uma convenção leve sobre mensagens de commits. Ela fornece um conjunto fácil de regras para criar um histórico de commits explícito.
+
+Estrutura: 
+```
+ <Type>[optional scope]: <description>
+ [optional body]
+ [optional footer(s)]
+ ```
+
+Elementos estruturais:
+
+1. **Correção**: uma confirmação do tipo *fix* corrige um bug na sua base de código.
+2. **Façanha**: um commit do tipo *feat* introduz um novo recurso a base de código.
+3. **Breakink change**: um commit que tem um rodapé *breaking change* ou acrescenta um *!* após o tipo/escopo, introduz uma mudança de API de quebra. Pode ser parte de commits de qualquer tipo.
+4. Tipos diferentes de **fix:** e **feat:** são permitidos, por exemplo **build:, docs:, style:, perf:, test:** e outros.
+5. Rodapés diferentes **breaking change: description** podem ser fornecidos e seguem uma convenção semelhante ao formato do git trailer.
