@@ -188,3 +188,45 @@ Elementos estruturais:
 3. **Breakink change**: um commit que tem um rodapé *breaking change* ou acrescenta um *!* após o tipo/escopo, introduz uma mudança de API de quebra. Pode ser parte de commits de qualquer tipo.
 4. Tipos diferentes de **fix:** e **feat:** são permitidos, por exemplo **build:, docs:, style:, perf:, test:** e outros.
 5. Rodapés diferentes **breaking change: description** podem ser fornecidos e seguem uma convenção semelhante ao formato do git trailer.
+
+### Markdown
+
+É uma linguagem de marcação, e a mesma usada para construção desse documento README, toda construção foi utilizando as dicas que aprendi com a parte que vi sobre o markdown, seu trabalho em organização de títulos, tópicos, tabelas, listagem, linkagem, estruturas de código, entre outras de suas muitas capacidades.
+
+
+### Segurança
+
+#### Pilares da Segurança
+
+- **Confidencialidade**: Controlar o acesso por multiplos fatores, autenticação e criptografia.
+- **Integridade**: Implementação de fatores para impedir alteração não autorizadas devem ser pensadas e implementadas.
+- **Disponibilidade**: Estar disponível quando necessário.
+
+#### Níveis de Classificação
+
+- **Confidencial**: Dados altamente sigilosos * Um possível vazamento certamente causaria grandes danos a empresa. *.
+- **Restrita**: Exclussivos para alguns grupos de profissionais * Um possível vazamento pode causar um impacto significativo. *.
+- **Interno**: Informações para o campo da empresa e precisa de cuidado para não ser externalizado.
+- **Publico**: Podem ser divulgados sem restrições.
+
+### Engenaria Social
+
+Engenharia Social é a habilidade de conseguir acesso a informações ou áreas importantes de algo ou alguém através da persuasão. *Funciona pois o ser humano confia e coopera por natureza.*
+
+#### Táticas e abordagem
+
+Algumas táticas consistem em:
+- *Baiting*: Uma isca fisíca ou digital(Pendrive ou download de filme, por exemplo).
+- *Phishing*: O mais famoso, simula algo que transmite veracidade.(Emails falsos de bancos, falsos avisos de segurança, ofertas irresitíveis, entre outros).
+- *Dumpester Diving*: Cuidado com o descarte de informações, essa técnica consiste em vasculhar o lixo descartado.
+
+
+Com isso, **Boas Práticas** para segurança consiste em:
+
+- Não compartilhar acesso;
+- Armazenamento em repositórios oficiais;
+- Cautela e atenção em programas e arquivos baixados;
+- Senhas seguras( evitar os padrões de baixa proteção, senhas com data de nascimento, nome...);
+- Uso consciente da internet;
+- Sempre manter o software atualizado, novas versões sempre trazem correções de bugs e/ou segurança;
+- Cuidado com redes abertas, elas guradam seus acessos de navegação.
