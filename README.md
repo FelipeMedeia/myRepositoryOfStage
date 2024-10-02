@@ -8,6 +8,15 @@
 - **Markdown**
 - **Segurança** 
 
+## Neste segundo momento falaremos sobre:
+
+- **Bitcoin e Blockchain**
+- **Assinaturas Digitais**
+- **Moeda Digital**
+- **Proof of work**
+- **Evitando Gasto Duplo**
+- **Carteiras Digitais**
+- **Anonimato**
 ---
 
 # **Metodologias Agéis (MA)**
@@ -18,10 +27,10 @@ O manifesto ágil pode ser representado por seus 4 valores e 12 princípios, con
 
 #### Valores
 
-1. Individuos e interações ** mais ** que processos e ferramentas;
-2. Software em funcionamento ** mais ** que documentação;
-3. Colaboração com o cliente ** mais ** que negociações de contrato;
-4. Responder a mudanças ** mais ** que seguir um plano.
+1. Individuos e interações **mais** que processos e ferramentas;
+2. Software em funcionamento **mais** que documentação;
+3. Colaboração com o cliente **mais** que negociações de contrato;
+4. Responder a mudanças **mais** que seguir um plano.
 
 Os Valores sugerem dar mais enfâse na parte de colaboração tanto no time quanto para com o cliente ao invés de se ater aos processos e ferramentas de contução ou as negociações dos contratos, ter documentação se faz necessário, mas nessa questão, algo mais simples documentado com alguma coisa já funcionando é mais importante, seja capaz de responder a mudanças, pois elas estarão sempre acontecendo.
 
@@ -42,15 +51,14 @@ Os Valores sugerem dar mais enfâse na parte de colaboração tanto no time quan
 
 Os princípios trazem os conceitos dos valores de forma mais  individualizada e explicita, onde eles levantam a importância da colaboração e do trabalho em equipe para contrução de um ambiente ágil de desenvolvimento.
 
-> " Agilidade é a capacidade de mover e mudar de direção com rapidez e facilidade." 
-> 
- Alistair Cockburn
+> " Agilidade é a capacidade de mover e mudar de direção com rapidez e facilidade."
+Alistair Cockburn
 
 Alistair Cockburn apresentou um modelo chamado de _*Heart of Agile*_
 
 Para seu funcionamento precisa **colaborar** com a equipe para conseguir um bom aprendizado, ter **entregas** frequentes para construir um bom processo, **refletir** e analisar tudo que aprendeu e **melhorar** sobre isso para um bom trabalho. Estes 4 pontos são o coração desse modelo.
 
-Seguindo os pontos apresentados chegamos na estrutura de como um modelo ágil funciona. Ser ágil é composto por, ** mindset **, ** 4 valores **, ** 12 princípios ** e que são manifestadas atráves de diversas ** práticas ** diferentes.
+Seguindo os pontos apresentados chegamos na estrutura de como um modelo ágil funciona. Ser ágil é composto por, **mindset**, **4 valores**, **12 princípios** e que são manifestadas atráves de diversas **práticas** diferentes.
 
 Com essa base em mente, o proximo assunto a ser falado é o framework Scrum, que apresenta uma forma de trabalhar a MA.
 
@@ -204,8 +212,8 @@ Elementos estruturais:
 
 #### Níveis de Classificação
 
-- **Confidencial**: Dados altamente sigilosos * Um possível vazamento certamente causaria grandes danos a empresa. *.
-- **Restrita**: Exclussivos para alguns grupos de profissionais * Um possível vazamento pode causar um impacto significativo. *.
+- **Confidencial**: Dados altamente sigilosos *Um possível vazamento certamente causaria grandes danos a empresa.*.
+- **Restrita**: Exclussivos para alguns grupos de profissionais *Um possível vazamento pode causar um impacto significativo.*.
 - **Interno**: Informações para o campo da empresa e precisa de cuidado para não ser externalizado.
 - **Publico**: Podem ser divulgados sem restrições.
 
