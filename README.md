@@ -8,15 +8,6 @@
 - **Markdown**
 - **Segurança** 
 
-## Neste segundo momento falaremos sobre:
-
-- **Bitcoin e Blockchain**
-- **Assinaturas Digitais**
-- **Moeda Digital**
-- **Proof of work**
-- **Evitando Gasto Duplo**
-- **Carteiras Digitais**
-- **Anonimato**
 ---
 
 # **Metodologias Agéis (MA)**

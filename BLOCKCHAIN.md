@@ -40,7 +40,7 @@ Então com isso foi apresentado como **Criar uma Moeda Digital**, de inicio vamo
 - Transforma um texto de entrada de qualquer tamanho em um texto de saída de tamanho fixo, por exemplo os codigos de barras.
 Então as funções hash criptográficas são:
 - Fácil de computar
-- Livre de colisão: Impossivel* dois inputs com o mesmo output              *muito, muito improvável
+- Livre de colisão: Impossivel* dois inputs com o mesmo output           **muito, muito improvável**
 - Unidirecional: Impossivel* descobrir o input dado seu output
 - "Puzzle Friendly": Se modifica pouco na entrada muda muito na saída.
 
@@ -48,7 +48,7 @@ Ou seja, é inviável alterar os dados de um bloco, pois a hash é gerada pela e
 
 Foi então exemplificado os passos e caracteristicas das moedas e nesse exemplo havia uma unidade central que controlava o funcionamento, usada apenas para dar base para a compreensão, pois no **Bitcoin** essa unidade central é substituida por uma rede de computadores, sendo distribuida, sem hierarquia e baseada em protocolo de consenso, com isso qualquer computador conectado à rede blockchain é um nó desta rede, onde temos:
 - Full Nodes:(Nós completos, mineradores)
-   - Validam todas as transaçôes emeitidas pela rede
+  - Validam todas as transaçôes emeitidas pela rede
   - Mantêm a consistência da blockchain
 - Lite Nodes:(Nós mais leves, podem ser carteiras)
   - Não armazenam toda a blockchain
@@ -64,4 +64,19 @@ Para a mineração usam o **Proof of work** que é o metodo de consenso, os bloc
 
 **Carteiras** apresentam 3 pilares: Disponibilidades, segurança e conveniência. Para formatos existem, a carteira de papel, que é litealmente um pedaço de papel e tem sua segurança tanto quanto um papel, um ponto positivo é não está na rede, sendo imune* a hackers. As carteira de hardware apresentam muitas váriedades são as mais seguras e permitem multiplos pares de CP/CS, que é sempre recomendado ter mais de uma chave pública. Existem as carteiras de software que funcionam em descktop e mobile e é tão segura quanto seu computador e as carteiras online as mais práticas, porém menos seguras, você não consegue saber seus pares de chave pública e privada.
 
-As **Exchanges** surgem para apresentar formas de negociar criptomoedas, em resumo, elas centralizam as negociações onde pessoas tem cripto e querem vender e pessoas tem dinheiro e querem comprar criptos. Elas são básicamente um site. Em comparação com os Bancos, bancos são regulados, as exchanges( ainda não), em resumo você não tem nenhuma segurança com relação aos investimentos, por isso é sempre recomendado pesquisar bem antes de tomar qualquer decisão e saber que está correndo um riscode perder tudo que está colocando a jogo alí. Ficar sempre atento para não cair em esquemas de pirâmides...
+As **Exchanges** surgem para apresentar formas de negociar criptomoedas, em resumo, elas centralizam as negociações onde pessoas tem cripto e querem vender e pessoas tem dinheiro e querem comprar criptos. Elas são básicamente um site. Em comparação com os Bancos, bancos são regulados, as exchanges( ainda não), em resumo você não tem nenhuma segurança com relação aos investimentos, por isso é sempre recomendado pesquisar bem antes de tomar qualquer decisão e saber que está correndo um riscode perder tudo que está colocando a jogo alí. Ficar sempre atento para não cair em esquemas de pirâmides que geralmente são apresentados como *Marketing Multi Nível*, *Marketing de Rede*, garante retornos com x% de lucro, é difícil sair dele, e tem as propostas que que quanto mais pessoas novas você trouxer mais lucrará.
+
+Muitos tem a visão de o bitcoin é uma moeda de hackers pelo fato do **Anonimato**, porém não se trata bem disso, ao menos não em um nível totalmente anônimo de funcionamento:
+- Bitcoin ID = chave pública --> Pseudônimo
+- Transações rastreavéis, para aumento de segurança é sempre aconselhado usar mais de uma chave pública, uma pra cada transação de preferência
+- Anonimato: Pseudônimo + Irrastreável
+
+De-Anonimizando o Bitcoin
+  - Muitos serviços baseados em bitcoin requerem sua identidade ou infirmações a seu respeito, por exemplo as exchanges, com isso é possivel traçar uma rota de gastos analisando os historicos ligados a chave pública, mas para isso é necessário que a pessoa queira muito descobrir seus históricos de transação, por isso o número de chaves públicas ajudam na segurança, pois dificultará o trabalho, outro exemplos são as carteiras. Já meios indiretos estão relacionados a hábitos de uso, endereços IP.
+
+Boas práticas para aumentar a segurança:
+- Novo pagamento --> Nova chave pública
+- Usar navegadores que minimize a exposição na rede (TOR Browswer)
+- Virtual Private Network (VPN), sistemas que ajudem na segurança do IP
+- Mixing, vai misturar as chaves publicas de pessoas que o usam
+- Coinjoin
